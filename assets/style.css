@@ -554,6 +554,26 @@ body {
     }
 }
 
+@media (max-width: 1700px) {
+    .project-container {
+        height: 900px;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    .project-container {
+        height: 900px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .project-container {
+        height: 1700px;
+    }
+}
+
+
 .project-title h1{
     color: #fff;
     margin-top: 50px;
@@ -584,7 +604,6 @@ body {
     
     
 }
-
 
 
 .project-item {
