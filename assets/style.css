@@ -150,9 +150,23 @@ body {
 /* Home Section */
 
 .home {
-    
+    position: relative;
     min-height: 100vh;
+    overflow: hidden; /* This hides the excess blur outside the element */
+}
+
+/* Add a pseudo-element for background image with blur */
+.home::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
     background: url(images/bg.body.jpeg) no-repeat center center/cover;
+    filter: blur(10px);
+    z-index: -1;
+    pointer-events: none;
 }
 
 .imgMain{
