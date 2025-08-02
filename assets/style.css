@@ -174,15 +174,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(black 5px 7px 20px);
+    
+    
 }
 
 .home-content {
+    
     border: 3px;
     border-color: transparent;
     background-color: #5a5959;
     border-radius: 50px;
     margin: 0 150px;
     animation: appear 1s linear;
+    
 }
 
 
@@ -287,11 +291,11 @@ body {
     color: #ffffff;
     text-shadow: black 3px 3px 10px;
     text-align: justify;
-    
+    overflow: hidden;
 }
 
 .home-p {
-    margin: 0 20px;
+    margin: 0 30px;
 
 }
 
@@ -390,7 +394,7 @@ body {
     padding-top: 20px;
     font-size: 50px;
     text-shadow: black 3px 3px 10px;
-    
+    color: #fdfbff;
 }
 
 
@@ -432,16 +436,21 @@ body {
     text-shadow: black 3px 3px 3px;
     text-align: justify;
     margin-right: 20px;
+    color: #fdfbff;
 }
 
 
 /* Skills section */
 
-.skills-container {
+.skills-bg{
     background-color: #5a5959;
-    animation: appear linear;
     width: auto;
     height: 700px;
+    
+}
+
+.skills-container {
+    animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
 }
@@ -583,7 +592,7 @@ body {
 
 @media (max-width: 1150px) {
     .project-container {
-        height: 1700px;
+        height: auto-fit;
     }
 }
 
@@ -627,7 +636,6 @@ body {
     flex-direction: column;
     gap: 5px;
     box-shadow: black 1px 1px 3px;
-    
 }
 
 .project-item img{
@@ -770,46 +778,8 @@ footer{
 }
 
 /* Utility Classes */
-.poppins {
-    font-family: 'Poppins', sans-serif;
-}
-
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
-.flex {
-    display: flex;
-}
-
-.s-between {
-    justify-content: space-between;
-}
-
-.s-around {
-    justify-content: space-around;
-}
-
-.s-center {
-    justify-content: center;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.f-col {
-    flex-direction: column;
-}
 
 
-.p-relative {
-    position: relative;
-}
-
-.t-white {
-    color: #fff;
-}
 
 .bg-color {
     background-color: #1f1f38;
