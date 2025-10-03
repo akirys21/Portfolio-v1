@@ -639,7 +639,7 @@ body {
 }
 
 .project-item:hover{
-    scale: 1.1;
+    scale: 1.05;
     filter: drop-shadow(0 0 10px);
 }
 
@@ -857,5 +857,6 @@ footer{
     color: #1f1f38;
     background-color: #b1b1b1;
 }
+
 
 
