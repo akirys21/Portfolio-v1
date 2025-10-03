@@ -638,6 +638,10 @@ body {
     box-shadow: black 1px 1px 3px;
 }
 
+.project-item:hover{
+    scale: 1.2;
+}
+
 .project-item img{
     height: 140px;
     width: 250px;
@@ -852,3 +856,4 @@ footer{
     color: #1f1f38;
     background-color: #b1b1b1;
 }
+
